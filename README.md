@@ -1,4 +1,4 @@
-Introduction :
+**Introduction :**
 An innovative Ticket Management System, where simplicity and efficiency converge to redefine the ticket booking experience. Designed to cater to diverse event management needs, our system empowers users with seamless booking capabilities, automated ticket generation, and convenient access to booking history.
 
 With an intuitive interface crafted using HTML, we invite users to effortlessly navigate through the booking process. Our structured layout ensures clarity and ease of use, guiding users to input their details and reserve their desired seats with utmost convenience.
@@ -13,14 +13,14 @@ Moreover, our integrated view history feature provides users with the option to 
 
 “Welcome to our Ticket Management System – effortless event planning, streamlined ticketing.”
 
-Steps to Create Ticket Management System
+**Steps to Create Ticket Management System:**
 Plan and Define Requirements: Clearly define the objectives and requirements of your Ticket Management System. Determine what features you want to include, such as booking tickets, viewing booking history, and deleting bookings.
 Design User Interface: Sketch out the layout and design of your ticket management system. Decide on the placement of elements such as input fields for booking details, buttons for submitting bookings and viewing history, and tables for displaying booking history.
 Set Up HTML Structure: Create the HTML file for your ticket management system. Structure the file with appropriate tags for elements like forms, input fields, buttons, and tables.
 Style with CSS: Write CSS code to style your ticket management system. Apply styles to enhance the appearance of elements, such as setting colors, fonts, padding, and margins.
 Implement Functionality with JavaScript:Add event listeners to capture user interactions, such as form submissions and button clicks.Write JavaScript functions to handle these interactions, such as booking tickets, displaying booking history, and deleting bookings.Implement logic to generate unique ticket IDs and store booking details.
 Test and Debug: Test your ticket management system thoroughly to ensure it functions as expected. Check for any bugs or errors and debug them as necessary.
-Explanation :
+**Explanation :**
 HTML (index.html​)
 The HTML code serves as the backbone of our Ticket Management System, providing the structural framework for a user-friendly interface. We begin by defining the document type and language to ensure compatibility and accessibility across platforms.
 
@@ -38,7 +38,7 @@ When users click the “View History” button, the table becomes visible, prese
 Integrating Interactive Functionality, JavaScript functionality is seamlessly integrated into the system. While not explicitly shown in the HTML code, JavaScript enhances the user experience by adding interactivity and dynamic features such as form validation, error handling, and the generation of unique ticket IDs.
 By combining HTML, CSS, and JavaScript, our Ticket Management System offers users unparalleled convenience and control over their event bookings.
 
-CSS Styling
+**CSS Styling**
 Body Styles:
 The body selector lays the groundwork for our Ticket Management System’s visual appeal and readability. By employing a familiar font stack including Arial and sans-serif fallbacks, we ensure consistent legibility across various platforms. The chosen background color of #f1f1f1 creates a calming backdrop for the system, promoting user focus and clarity.
 Background Image Container Styling:
@@ -57,7 +57,7 @@ Ticket History Table Styling:
 The #history-table class and its associated table elements (th, td) dictate the presentation of booking history data in a structured and visually appealing format. With a collapsed border style and consistent padding, the table maintains clarity and readability, while alternating row colors enhance visual distinction and organization. The specified text alignment ensures uniformity and coherence, facilitating easy comprehension of booking details.
 Delete Button Styling:
 The .delete-btn class defines the visual appearance of the delete button within the ticket history table, providing users with a clear and intuitive means of managing their booking history. With a bold background color (#dc3545) and contrasting white text, the button communicates its action effectively, while the specified border radius and padding ensure comfortable interaction and visual appeal.
-script.js
+**script.js**
 Streamlined Booking Process:
 By attaching an event listener to the ticket booking form, we intercept the submission process. This ensures that when users submit the form, the default action of the browser is prevented, allowing us to handle the booking process programmatically.
 Gathering Passenger Details:
